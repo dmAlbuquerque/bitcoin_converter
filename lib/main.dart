@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-const request = "https://api.hgbrasil.com/finance?format=json&key=108f909f ";
+const request = "https://api.hgbrasil.com/finance?format=json&key={API_KEY} ";
 
 void main() async {
   runApp(MaterialApp(
